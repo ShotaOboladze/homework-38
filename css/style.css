@@ -1,0 +1,129 @@
+@font-face {
+    src: url(../fonts/Roboto-Light.ttf);
+    font-family: 'Roboto-Light';
+}
+
+@font-face {
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto-Regular';
+}
+@font-face {
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-family: 'Roboto-Medium';
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto-Light';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: linear-gradient(297deg, #E8EFFC 0%, #FFF 100%);
+}
+
+/* Header */
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 53px;
+    letter-spacing: -1.7335766553878784px;
+    color: #43484D;
+    width: 390px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+/* /Header */
+
+/* Card-Section */
+section {
+    display: flex;
+    margin-left: 220px;
+    column-gap: 25px;
+}
+.card {
+    position: relative;
+    width: 297px;
+    height: 355px;
+    border-radius: 4.942px;
+    background: #FFF;
+    box-shadow: 0.82374507188797px 1.64749014377594px 2.4712350368499756px 0px rgba(0, 0, 0, 0.10);
+    padding-top: 50px;
+}
+.card>a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card>.header {
+    text-align: center;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #43484D;
+}
+.header>p {
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #86939E;
+}
+.card>.footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.flex-text {
+    margin-left: 30px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center; 
+    column-gap: 24px;   
+}
+.flex-text>p {
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #86939E;
+    text-align: left;
+}
+#h3-text {
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: -1.64749014377594px;
+    color: #7DC855;
+}
+h3 {
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: -1.64749014377594px;
+    color: #43484D;
+}
+button {
+    width: 248px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #7DC855;
+    cursor: pointer;
+
+    color: #FFF;
+    font-family: 'Roboto-Medium';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* /Card-Section */
