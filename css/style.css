@@ -40,7 +40,7 @@ h1 {
 /* Card-Section */
 section {
     display: flex;
-    margin-left: 220px;
+    justify-content: center;
     column-gap: 25px;
 }
 .card {
